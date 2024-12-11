@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Food Slider</title>
+    <link rel="stylesheet" href="style food.css">
+</head>
+<body>
+
+    <span>Food that you must try in Bali</span>
+    
+<!-- Navbar 部分 -->
+<nav>
+    <div class="navbar-container">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png">
+        </a>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="index.html">About</a>
+                <ul class="dropdown-content">
+                   <li><a href="food.html">Famous Food</a></li>
+                   <li><a href="festival.html">Famous Festival</a></li>
+                   <li><a href="places.html">Famous Place</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+    
+<!--图片和动画 -->
+
+    <ul class="slides">
+        <input type="radio" name="radio-btn" id="img-1" checked />
+        <li class="slide-container">
+            <div class="slide">
+                <img src="images/food1.jpg" />
+                <p class="caption">Sate Lilit</p>
+                <p class="description">Sate Lilit is a traditional Bali dish made with fish, rice, and vegetables.
+                     It's a hearty meal that tastes like a bowl of chicken with rice.</p>
+            </div>
+            <div class="nav">
+                <label for="img-6" class="prev">&#x2039;</label>
+                <label for="img-2" class="next">&#x203a;</label>
+            </div>
+        </li>
+    
+        <input type="radio" name="radio-btn" id="img-2" />
+        <li class="slide-container">
+            <div class="slide">
+                <img src="images/food2.jpg" />
+                <p class="caption">Betutu Duck</p>
+                <p class="description">Betutu Duck is a popular dish in Bali. It's made from duck bones,
+                     diced fish, and various vegetables.
+                     It's a delicious and simple meal that tastes like a dish of fish with rice.</p>
+            </div>
+            <div class="nav">
+                <label for="img-1" class="prev">&#x2039;</label>
+                <label for="img-3" class="next">&#x203a;</label>
+            </div>
+        </li>
+    
+        <input type="radio" name="radio-btn" id="img-3" />
+        <li class="slide-container">
+            <div class="slide">
+                <img src="images/food3.jpg" />
+                <p class="caption">Spit Roast Pig Bali style</p>
+                <p class="description">Spit Roast Pig is a popular dish in Bali. It's made from pig bones,
+                     roasted meat, and various vegetables.
+                     It's a delicious and simple meal that tastes like a dish of pig with rice.</p>
+            </div>
+            <div class="nav">
+                <label for="img-2" class="prev">&#x2039;</label>
+                <label for="img-4" class="next">&#x203a;</label>
+            </div>
+        </li>
+    
+        <!-- dots 部分 -->
+
+        <li class="nav-dots">
+            <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+            <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+            <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+        </li>
+    </ul>
+</body>
+
+
+</html>
